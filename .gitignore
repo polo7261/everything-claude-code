@@ -17,13 +17,39 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+*~
 
 # Node
 node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.backup
+*.old
 
 # Personal configs (if any)
 personal/
 private/
+.local/
 
 # Session templates (not committed)
 examples/sessions/*.tmp
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
